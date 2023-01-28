@@ -1,0 +1,1 @@
+find /home/tj/images -type f -name "*.png" -print0 | xargs -0 shuf -e -n 30 -z | xargs -0 cp -vt /home/tj/frames_1/
